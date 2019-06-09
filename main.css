@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    margin: 0.3%;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+}
+header ul, a{
+        list-style: none;
+        text-decoration: none;
+        color: azure;
+        font-size: 1.25em;
+}
+
+header h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 3em;
+    margin: 5% auto;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: crimson;
+}
+
+footer{
+    background-color: rgba(16, 16, 16, 0.6);
+    color: rgba(255, 255, 255, 0.747);
+    text-align: center;
+}
+
