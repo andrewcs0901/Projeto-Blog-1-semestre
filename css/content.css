@@ -1,0 +1,52 @@
+container{
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin: 3% 0;
+}
+
+#recentes{
+    font-size: 1.6em;
+}
+
+.postagens{
+    display: flex;
+    flex-direction: row;
+}
+
+#last-posts{
+    margin-right: 30%;
+}
+
+#titulo{
+    font-size: 1.3em;
+}
+
+#corpo-postagem{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.1em;
+    text-align: justify;
+}
+
+#form-insert-post{
+    display: flex;
+}
+.box{
+    text-align: center;
+}
+#add-post{
+    text-align: center;
+    background-color: brown;
+    color: aliceblue;
+    max-width: 22%;
+    transition-duration: 0.16s;
+    margin: 0 auto;
+}
+#add-post:hover{
+    max-width: 30%;
+}

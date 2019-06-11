@@ -4,16 +4,17 @@
 }
 
 html{
-    margin: 0.3%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-header{
+header .topo{
     display: flex;
     flex-direction: column;
 }
-header ul, a{
+header ul, header a{
         list-style: none;
         text-decoration: none;
+        text-align: center;
         color: azure;
         font-size: 1.25em;
 }
@@ -25,7 +26,7 @@ header h1{
     margin: 5% auto;
 }
 
-ul{
+header ul{
     display: flex;
     flex-direction: row;
     justify-content: space-around;

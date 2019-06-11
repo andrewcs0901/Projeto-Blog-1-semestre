@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="content.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/content.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <title>Meu Blog</title>
 </head>
 
 <body>
-    <header>
+    <header class="top">
         <h1>Meu Blog</h1>
         <nav>
             <ul>
@@ -23,40 +24,71 @@
     </header>
     <container>
         <main>
-            <h3 id="recentes">
-                Postagens mais recentes
-            </h3>
-            <div class="postagens">
-                <div id="last-posts">
-                    <div id="bloco-postagem">
-                        <div id="titulo">Lorem, ipsum.</div>
-                        <div id="imagem"><img src="https://lorempixel.com/200/200" alt=""></div>
-                        <div id="corpo-postagem">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In veniam et
-                            enim minus magnam ducimus quibusdam eos nulla tempora sapiente, quas quos ex iusto pariatur
-                            dolores culpa quod repellat! Voluptatum, illo corrupti quisquam unde exercitationem
-                            similique dicta quos iste vero, laborum alias enim dolorem quidem adipisci accusamus maiores
-                            ad consequuntur.</div>
+            <div id="content">
+                <div id="add-post">
+                    <h2>
+                        <div id="show-add" style="display: none;font: 0.5em;background-color: brown">
+                            adicione um novo post!
+                        </div>+
+                    </h2>
+                </div>
+                <h3 id="recentes">
+                    Postagens mais recentes
+                </h3>
+                <div class="postagens">
+                    <div id="last-posts">
+                        <div id="bloco-postagem">
+                            <div id="titulo">Lorem, ipsum.</div>
+                            <div id="imagem"><img src="https://lorempixel.com/200/200" alt=""></div>
+                            <div id="corpo-postagem">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In veniam
+                                et
+                                enim minus magnam ducimus quibusdam eos nulla tempora sapiente, quas quos ex iusto
+                                pariatur
+                                dolores culpa quod repellat! Voluptatum, illo corrupti quisquam unde exercitationem
+                                similique dicta quos iste vero, laborum alias enim dolorem quidem adipisci accusamus
+                                maiores
+                                ad consequuntur.</div>
+                        </div>
+                    </div>
+                    <div id="list-month">
+                        <div id="aside-title">Selecione postagens por mês</div>
+                        <ul>
+                            <li><a href="#">Janeiro</a></li>
+                            <li><a href="#">Fevereiro</a></li>
+                            <li><a href="#">Março</a></li>
+                            <li><a href="#">Abril</a></li>
+                            <li><a href="#">Maio</a></li>
+                            <li><a href="#">Junho</a></li>
+                            <li><a href="#">Julho</a></li>
+                            <li><a href="#">Agosto</a></li>
+                            <li><a href="#">Setembro</a></li>
+                            <li><a href="#">Outubro</a></li>
+                            <li><a href="#">Novembro</a></li>
+                            <li><a href="#">Dezembro</a></li>
+                        </ul>
                     </div>
                 </div>
-                <div id="list-month">
-                    <div id="aside-title">Selecione postagens por mês</div>
-                    <li>Janeiro</li>
-                    <li>Fevereiro</li>
-                    <li>Março</li>
-                    <li>Abril</li>
-                    <li>Maio</li>
-                    <li>Junho</li>
-                    <li>Julho</li>
-                    <li>Agosto</li>
-                    <li>Setembro</li>
-                    <li>Outubro</li>
-                    <li>Novembro</li>
-                    <li>Dezembro</li>
+            </div>
+            <div id="insert-post" style="display: none">
+                <div class="box">
+                    <header class="insert-title">
+                        <h1>Adicione um novo post</h1>
+                    </header>
+                    <div class="form-insert-post">
+                        <form>
+                            <div><input id="titulo" placeholder="Título do post" type="text"></div>
+                            ​<div><textarea id="txtArea" rows="15" cols="70"
+                                    placeholder="Digite seu post aqui"></textarea></div>
+                            <input id="submit" type="submit">
+                        </form>
+                    </div>
                 </div>
             </div>
         </main>
         <footer>Andrew Costa, 2019</footer>
     </container>
+    <script src="/script/script.js"></script>
+    <script></script>
 </body>
 
 </html>
