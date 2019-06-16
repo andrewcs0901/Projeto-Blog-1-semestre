@@ -37,18 +37,6 @@
                 </h3>
                 <div class="postagens">
                     <div id="last-posts">
-                        <div id="bloco-postagem">
-                            <div id="titulo">Lorem, ipsum.</div>
-                            <div id="imagem"><img src="https://lorempixel.com/200/200" alt=""></div>
-                            <div id="corpo-postagem">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In veniam
-                                et
-                                enim minus magnam ducimus quibusdam eos nulla tempora sapiente, quas quos ex iusto
-                                pariatur
-                                dolores culpa quod repellat! Voluptatum, illo corrupti quisquam unde exercitationem
-                                similique dicta quos iste vero, laborum alias enim dolorem quidem adipisci accusamus
-                                maiores
-                                ad consequuntur.</div>
-                        </div>
                     </div>
                     <div id="list-month">
                         <div id="aside-title">Selecione postagens por mês</div>
@@ -75,17 +63,18 @@
                         <h1>Adicione um novo post</h1>
                     </header>
                     <div class="form-insert-post">
-                        <form>
-                            <div><input id="titulo" placeholder="Título do post" type="text"></div>
-                            ​<div><textarea id="txtArea" rows="15" cols="70"
-                                    placeholder="Digite seu post aqui"></textarea></div>
-                            <input id="submit" type="submit">
+                        <form class="form">
+                            <input id="titulo" placeholder="Título do post" type="text">
+                            <input type="text" placeholder="autor do post">
+                            <input type="file">
+                            ​<textarea id="txtArea" rows="5" cols="10" placeholder="Escreva o texto que será exibido na página inicial máx 200 caracteres" maxlength="200"></textarea>
+                            <textarea name="" id="" cols="50" rows="50"></textarea>
+                            <input id="submit-new-post" type="submit">
                         </form>
                     </div>
                 </div>
             </div>
         </main>
-        <footer>Andrew Costa, 2019</footer>
     </container>
     <script src="/script/script.js"></script>
     <script></script>

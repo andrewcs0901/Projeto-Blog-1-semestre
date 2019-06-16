@@ -14,6 +14,17 @@ main{
     font-size: 1.6em;
 }
 
+div[class*='bloco-postagem']{
+    width: 60vw;
+    height: 30vh;
+    margin: 10%;
+    background-color: #9790e00f;
+    box-shadow: 4px 3px 15px 2px rgba(0,0,0, 0.2);
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
 .postagens{
     display: flex;
     flex-direction: row;
@@ -33,6 +44,12 @@ main{
     text-align: justify;
 }
 
+#data-de-postagem{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 18%;
+}
+
 #form-insert-post{
     display: flex;
 }
@@ -44,9 +61,15 @@ main{
     background-color: brown;
     color: aliceblue;
     max-width: 22%;
-    transition-duration: 0.16s;
+    transition-duration: 99.6ms;
     margin: 0 auto;
 }
 #add-post:hover{
     max-width: 30%;
+}
+form{
+    display: grid;
+}
+input, textarea{
+    margin-top: 2%;
 }
