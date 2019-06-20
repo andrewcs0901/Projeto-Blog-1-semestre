@@ -2,7 +2,7 @@ var dataBase = {
     postagem: [
         {
             id: 1,
-            titulo: 'História da Wordl Wide Web',
+            titulo: 'História da World Wide Web',
             imagem: "https://home.cern/sites/home.web.cern.ch/files/inline-images/achintya/web%4030_News.png",
             autor: 'Andrew Costa',
             data: '10/06/2019',
