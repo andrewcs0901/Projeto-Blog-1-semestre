@@ -5,6 +5,11 @@
 
 html{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #000000a8;
+}
+
+h2 , h3{
+    margin: 1.5%;
 }
 
 header .topo{
