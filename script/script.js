@@ -99,7 +99,7 @@ var dataBase = {
             autor: 'Andrew Costa',
             data: '12/06/2019',
             curtidas: 0,
-            content: '<A trilha que você deverá percorrer já está pronta, desejo-lhe muita força de vontade que uma hora <strike>a sorte</strike>o sucesso lhe aparecerá'+
+            content: '<p>A trilha que você deverá percorrer já está pronta, que tenha muita força de vontade que uma hora <strike> a sorte</strike> o sucesso lhe aparecerá até você</p>'+
             '<a href="https://github.com/kamranahmedse/developer-roadmap">Road map para Web-Developers</a>'
             ,
             sobre: 'Saiba a trilha que você deverá seguir caso deseje se tornar um',
